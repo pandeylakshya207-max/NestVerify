@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0F6E56;
+  --color-primary-dark: #0A4D3C;
+  --color-accent: #BA7517;
+  --color-accent-light: #D48B2A;
+  --color-bg-off: #F9F8F6;
+  --color-sidebar: #1A2332;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-off text-slate-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2.5 rounded-lg font-medium transition-all hover:bg-primary-dark active:scale-95 disabled:opacity-50;
+  }
+  
+  .btn-accent {
+    @apply bg-accent text-white px-6 py-2.5 rounded-lg font-medium transition-all hover:bg-accent-light active:scale-95;
+  }
+  
+  .btn-outline {
+    @apply border border-slate-300 px-6 py-2.5 rounded-lg font-medium transition-all hover:bg-slate-50 active:scale-95;
+  }
+  
+  .card {
+    @apply bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm transition-shadow hover:shadow-md;
+  }
+  
+  .badge-verified {
+    @apply bg-green-50 text-green-700 px-2 py-0.5 rounded-full text-xs font-semibold flex items-center gap-1 border border-green-200;
+  }
+  
+  .badge-delay {
+    @apply bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full text-xs font-semibold flex items-center gap-1 border border-amber-200;
+  }
+}
+
+/* Custom scrollbar for horizontal project scroll */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes pulse-amber {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.2); }
+}
+
+.animate-pulse-amber {
+  animation: pulse-amber 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
