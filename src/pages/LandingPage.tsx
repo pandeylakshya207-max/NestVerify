@@ -313,7 +313,7 @@ export default function LandingPage() {
                       <CheckCircle size={20} />
                     </div>
                     <div>
-                      <div className="text-sm font-bold">Prestige Elysian</div>
+                      <div className="text-sm font-bold">Northbank Elysian</div>
                       <div className="text-[10px] text-slate-400 uppercase tracking-wider">Construction Update</div>
                     </div>
                   </div>

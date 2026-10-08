@@ -269,8 +269,8 @@ export default function BuyerDashboard() {
           {activeTab === 'Scheduled Calls' && (
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
               {[
-                { project: "Prestige Elysian", builder: "Prestige Group", date: "Oct 24, 2024", time: "11:00 AM", status: "Confirmed" },
-                { project: "Brigade Cornerstone", builder: "Brigade Group", date: "Oct 26, 2024", time: "03:30 PM", status: "Pending" },
+                { project: "Northbank Elysian", builder: "Northbank Group", date: "Oct 24, 2024", time: "11:00 AM", status: "Confirmed" },
+                { project: "Kestrel Cornerstone", builder: "Kestrel Group", date: "Oct 26, 2024", time: "03:30 PM", status: "Pending" },
               ].map((call, i) => (
                 <div key={i} className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between">
                   <div className="flex items-center gap-4">

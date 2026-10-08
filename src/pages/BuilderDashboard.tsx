@@ -84,7 +84,7 @@ export default function BuilderDashboard() {
             <div className="flex items-center gap-3 mb-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center font-bold">P</div>
               <div>
-                <div className="text-sm font-bold truncate">Prestige Group</div>
+                <div className="text-sm font-bold truncate">Northbank Group</div>
                 <div className="text-[10px] text-primary font-bold uppercase tracking-widest flex items-center gap-1">
                   <Shield size={10} /> Pro Plan
                 </div>

@@ -133,7 +133,7 @@ export default function BuilderLanding() {
             <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Trusted by 380+ builders across India</span>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-40 grayscale">
-            {["Prestige", "Brigade", "Godrej", "Shapoorji", "Puravankara"].map(name => (
+            {["Northbank", "Kestrel", "Alderline", "Tamarack", "Harrowell"].map(name => (
               <span key={name} className="text-2xl font-black tracking-tighter">{name}</span>
             ))}
           </div>
@@ -221,7 +221,7 @@ export default function BuilderLanding() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-xs font-bold text-slate-500 uppercase tracking-wider">Company Name</label>
-                  <input type="text" className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="e.g. Prestige Group" />
+                  <input type="text" className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="e.g. Northbank Group" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-bold text-slate-500 uppercase tracking-wider">Contact Person</label>

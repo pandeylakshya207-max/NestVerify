@@ -9,9 +9,9 @@ export const CITIES = ["Bangalore", "Pune", "Hyderabad", "Mumbai", "Chennai"];
 export const PROJECTS: Project[] = [
   {
     id: "p1",
-    name: "Prestige Elysian",
+    name: "Northbank Elysian",
     builder: {
-      name: "Prestige Group",
+      name: "Northbank Group",
       rating: 4.8,
       verified: true,
       founded: 1986,
@@ -25,11 +25,11 @@ export const PROJECTS: Project[] = [
         support: 4.5
       },
       pastProjects: [
-        { name: "Prestige City", city: "Hyderabad", units: 480, delivery: "On Time", status: "Delivered" },
-        { name: "Prestige Lakeside", city: "Bangalore", units: 320, delivery: "3mo late", status: "Delivered" },
-        { name: "Prestige Falcon City", city: "Bangalore", units: 2500, delivery: "On Time", status: "Delivered" },
-        { name: "Prestige Tranquility", city: "Bangalore", units: 2368, delivery: "On Time", status: "Delivered" },
-        { name: "Prestige Shantiniketan", city: "Bangalore", units: 3000, delivery: "6mo late", status: "Delivered" },
+        { name: "Northbank City", city: "Hyderabad", units: 480, delivery: "On Time", status: "Delivered" },
+        { name: "Northbank Lakeside", city: "Bangalore", units: 320, delivery: "3mo late", status: "Delivered" },
+        { name: "Northbank Falcon City", city: "Bangalore", units: 2500, delivery: "On Time", status: "Delivered" },
+        { name: "Northbank Tranquility", city: "Bangalore", units: 2368, delivery: "On Time", status: "Delivered" },
+        { name: "Northbank Shantiniketan", city: "Bangalore", units: 3000, delivery: "6mo late", status: "Delivered" },
       ]
     },
     locality: "Whitefield",
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     completionPercentage: 68,
     reraId: "KA/REA/1251/2022",
     status: "Under Construction",
-    description: "Prestige Elysian is a premium residential project located in the heart of Whitefield. Spread across 6 acres, it offers a blend of luxury and nature with 70% open spaces and world-class amenities.",
+    description: "Northbank Elysian is a premium residential project located in the heart of Whitefield. Spread across 6 acres, it offers a blend of luxury and nature with 70% open spaces and world-class amenities.",
     amenities: ["Swimming Pool", "Gym", "Clubhouse", "Children's Play Area", "24hr Security", "EV Charging", "Jogging Track", "Amphitheatre"],
     highlights: ["Zero Brokerage", "RERA Registered", "Vastu Compliant", "Green Building"],
     configurations: [
@@ -78,8 +78,8 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p2",
-    name: "Brigade Cornerstone",
-    builder: { name: "Brigade Group", rating: 4.6, verified: true },
+    name: "Kestrel Cornerstone",
+    builder: { name: "Kestrel Group", rating: 4.6, verified: true },
     locality: "Sarjapur Road",
     city: "Bangalore",
     priceRange: "₹65L – ₹1.2Cr",
@@ -95,8 +95,8 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p3",
-    name: "Godrej Woodsville",
-    builder: { name: "Godrej Properties", rating: 4.7, verified: true },
+    name: "Alderline Woodsville",
+    builder: { name: "Alderline Properties", rating: 4.7, verified: true },
     locality: "Hinjewadi",
     city: "Pune",
     priceRange: "₹55L – ₹98L",
@@ -111,8 +111,8 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p4",
-    name: "Sobha Dream Gardens",
-    builder: { name: "Sobha Limited", rating: 4.9, verified: true },
+    name: "Sorrel Dream Gardens",
+    builder: { name: "Sorrel Limited", rating: 4.9, verified: true },
     locality: "Thanisandra",
     city: "Bangalore",
     priceRange: "₹85L – ₹1.6Cr",
@@ -128,19 +128,19 @@ export const PROJECTS: Project[] = [
 ];
 
 export const LEADS = [
-  { id: "l1", name: "Rahul Sharma", city: "Bangalore", project: "Prestige Elysian", bhk: "2BHK", budget: "₹80L - ₹1Cr", timeline: "Immediate", source: "Chat", status: "New", date: "2024-03-25" },
-  { id: "l2", name: "Priya Mehta", city: "Mumbai", project: "Prestige Elysian", bhk: "3BHK", budget: "₹1.2Cr - ₹1.5Cr", timeline: "3-6m", source: "Form", status: "Qualified", date: "2024-03-22" },
-  { id: "l3", name: "Amit Patel", city: "Pune", project: "Godrej Woodsville", bhk: "2BHK", budget: "₹60L - ₹80L", timeline: "6-12m", source: "Video Call", status: "Contacted", date: "2024-03-20" },
-  { id: "l4", name: "Sneha Reddy", city: "Hyderabad", project: "Prestige Elysian", bhk: "2BHK", budget: "₹75L - ₹90L", timeline: "Immediate", source: "Chat", status: "Converted", date: "2024-03-15" },
+  { id: "l1", name: "Rahul Sharma", city: "Bangalore", project: "Northbank Elysian", bhk: "2BHK", budget: "₹80L - ₹1Cr", timeline: "Immediate", source: "Chat", status: "New", date: "2024-03-25" },
+  { id: "l2", name: "Priya Mehta", city: "Mumbai", project: "Northbank Elysian", bhk: "3BHK", budget: "₹1.2Cr - ₹1.5Cr", timeline: "3-6m", source: "Form", status: "Qualified", date: "2024-03-22" },
+  { id: "l3", name: "Amit Patel", city: "Pune", project: "Alderline Woodsville", bhk: "2BHK", budget: "₹60L - ₹80L", timeline: "6-12m", source: "Video Call", status: "Contacted", date: "2024-03-20" },
+  { id: "l4", name: "Sneha Reddy", city: "Hyderabad", project: "Northbank Elysian", bhk: "2BHK", budget: "₹75L - ₹90L", timeline: "Immediate", source: "Chat", status: "Converted", date: "2024-03-15" },
 ];
 
 export const CHATS = [
-  { id: "c1", buyer: "Rahul S.", project: "Prestige Elysian", lastMessage: "Can I see the floor plan for Tower B?", time: "10:30 AM", unread: 2, messages: [
+  { id: "c1", buyer: "Rahul S.", project: "Northbank Elysian", lastMessage: "Can I see the floor plan for Tower B?", time: "10:30 AM", unread: 2, messages: [
     { sender: "buyer", text: "Hi, I'm interested in the 2BHK units.", time: "10:00 AM" },
     { sender: "builder", text: "Hello Rahul! We have several 2BHK options available in Tower B and C. Would you like a brochure?", time: "10:15 AM" },
     { sender: "buyer", text: "Can I see the floor plan for Tower B?", time: "10:30 AM" }
   ]},
-  { id: "c2", buyer: "Ananya K.", project: "Brigade Cornerstone", lastMessage: "Thank you for the update.", time: "Yesterday", unread: 0, messages: [] }
+  { id: "c2", buyer: "Ananya K.", project: "Kestrel Cornerstone", lastMessage: "Thank you for the update.", time: "Yesterday", unread: 0, messages: [] }
 ];
 
 export const ANALYTICS_DATA = [
@@ -153,7 +153,7 @@ export const ANALYTICS_DATA = [
 ];
 
 export const NOTIFICATIONS = [
-  { id: "n1", type: "update", text: "Prestige Elysian posted new photos — Floor 14 complete", date: "2 hours ago", read: false },
-  { id: "n2", type: "price", text: "Godrej Woodsville — Price increased by ₹2L", date: "1 day ago", read: true },
-  { id: "n3", type: "delay", text: "Brigade Cornerstone — Possession delayed by 3 months", date: "3 days ago", read: false },
+  { id: "n1", type: "update", text: "Northbank Elysian posted new photos — Floor 14 complete", date: "2 hours ago", read: false },
+  { id: "n2", type: "price", text: "Alderline Woodsville — Price increased by ₹2L", date: "1 day ago", read: true },
+  { id: "n3", type: "delay", text: "Kestrel Cornerstone — Possession delayed by 3 months", date: "3 days ago", read: false },
 ];
